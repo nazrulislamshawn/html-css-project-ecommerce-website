@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishawn Express</title>
+
+    <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!--Font Awesome CDN-->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!--Nav section strarts here-->
+
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="register.html" class="nav__link">Register</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="login.html" class="nav__link">Login</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Logout</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="profile.html" class="nav__link">
+                    <img src="./images/profile 1.png" class="profile-icon" alt="profile">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link nav__brand">NISHAWN EXPRESS</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="cart.html" class="nav__link">
+                    <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Cart 2 Products - $124.40
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+<!--Nav section ends here-->
+
+
+<!-- Main section starts here -->
+
+<main>
+    <div class="main-content">
+        <section class="product-details flex-center">
+          <div class="product-details__left flex-center">
+            <img
+              src="./images/product1.jpg"
+              class="product-details__img"
+              alt="product1"
+            />
+          </div>
+          <div class="product-details__right">
+            <h3 class="product__name">Sony v-4 Headphone</h3>
+            <p>
+              <span class="dot green"></span>
+              <span class="dot black"></span>
+              <span class="dot red"></span>
+            </p>
+            <p class="product__description">
+              <strong>Description: </strong>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              odio dolor harum tenetur mollitia aliquam quasi, voluptate atque
+              blanditiis perferendis natus veniam nisi qui at perspiciatis
+              ipsum, sapiente animi repellat aut asperiores, porro quidem velit
+              tempore! Praesentium ipsa veniam consectetur laborum laboriosam
+              consequuntur reprehenderit vero tempora, quasi et incidunt earum
+              tempore harum nemo. Voluptatibus eius dolores tenetur. Eaque totam
+              aspernatur, sunt veritatis, iste quos itaque qui corrupti quas.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab animi
+              nemo ea ut possimus minus quis eaque magnam saepe obcaecati
+              necessitatibus, facere ad doloremque fugit quidem. Numquam itaque
+              non ea fugiat similique eius, illum eligendi at architecto quam
+              dolor facilis minima atque nisi consequatur eum, vero temporibus
+              nulla fuga accusantium rerum hic ad! Quaerat, pariatur? Corporis
+              minima quam reprehenderit suscipit.
+            </p>
+            <h4 class="product__category">Category: Headphone</h4>
+            <h4 class="product__price">$225.99</h4>
+            <p class="product__rating"><strong>Rating:</strong> 4.5/5</p>
+            <button class="btn product__btn">Add To Cart</button>
+            <button class="btn product__btn">Back To Shopping</button>
+          </div>
+        </section>
+    </div>
+</main>
+
+<!-- Main section ends here -->
+
+
+<!-- Footer section starts here -->
+
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter: </label>
+        <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your Email Address">
+
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+
+    <div>
+        <p class="copyright__text">
+            Copyright &copy; by Nishawn Express. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+<!-- Footer section ends here -->
+
+
+<!-- JavaScript section starts here -->
+
+    <script src="./index.js"></script>
+
+<!-- JavaScript section ends here -->
+
+</body>
+</html>
